@@ -103,11 +103,17 @@ button span{
 }
 .control .line{
     width: 250px;
+    height: 4px;
+    background: #fff;
+    margin: 0 20px;
     border-radius: 2px;
 }
 .control .line span{
     width: 50px;
     height: 8px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
     display: block;
 }
 .active{
